@@ -18,5 +18,36 @@
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
+    <div>
+      <header>
+        <h1>Address, with a JS file.</h1>
+      </header>
+      <main>
+        <h2>Please enter the following:</h2>
+        <div>
+          <h3>Street Number:</h3>
+          <!-- Street Number textfield-->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" id="street-number">
+              <label class="mdl-textfield__label" for="sample2">Street Number...</label>
+              <span class="mdl-textfield__error">this is not a number!</span>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h3>Street Name:</h3>
+          <!-- Street Name textfield-->
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="street-name">
+              <label class="mdl-textfield__label" for="sample1">Street Name</label>
+            </div>
+          </form>
+        </div>
+        <button onclick="enterClicked()">Enter</button>
+        <div id="address"></div>
+      </main>
+    </div>
   </body>
 </html>

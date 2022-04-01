@@ -1,3 +1,36 @@
-.wow {
-  width: 100px;
+/* Created by: Evgeny Vovk
+* Created on: Mar 2022
+* This CSS file defines the style for index.html ICS2O-Unit2-03-HTML
+*/
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 250%;
+  margin-bottom: -0.5em;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+p {
+  color: violet;
+  font-size: 125%;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+.margin-left {
+  margin-left: 1.5em;
+}
+
+.margin-top {
+  margin-top: -0.7em;
 }
